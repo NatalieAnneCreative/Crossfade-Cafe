@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Rinjani;
+  src: url(/fonts/Rinjani-Bold.otf);
+}
+
+@font-face {
+  font-family: Metrich-Medium;
+  src: url(/fonts/Metrisch-Medium.otf);
+}
+
+@font-face {
+  font-family: ProdaSans-Regular;
+  src: url(/fonts/ProdaSans-Regular.otf);
+}
+
+@font-face {
+  font-family: ProdaSans-Italic;
+  src: url(/fonts/ProdaSans-Italic.otf);
+}
+* {
+  background-color: #ede4d4;
+}
+
+.navbar {
+  background-color: #ede4d4;
+}
+.navbar-brand {
+  font-family: Rinjani;
+
+  font-size: 30pt;
+}
+.nav-link {
+  display: flex;
+  color: black;
+  justify-content: end;
+}
+.navbar-text {
+  font-family: Metrich-Medium;
+  color: black;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-item > a:hover {
+  text-decoration: underline;
+  color: black;
+  display: flex;
+  justify-content: end;
+}
